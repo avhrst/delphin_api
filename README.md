@@ -63,3 +63,40 @@ GET /service/{service_id}
 }
 ```
 
+## Gallerys years
+GET /gallerys_years
+
+```
+{
+  years: [
+    {id: 2019, islast: 1},
+    {id: 2018, islast: 0}    
+  ]
+}
+```
+
+
+## Gallerys
+GET /gallerys/{year}
+
+```
+{
+  gallerys:[
+  {id: 1, name: 'название',photo: 'url превью'},
+  {id: 2, name: 'название',photo: 'url превью'},  
+  ]
+}
+```
+## Gallery
+GET /gallery/{id_gallery}
+
+```
+{
+  photos: [
+    {id: 1, url: 'url'},
+    {id: 2, url: 'url'}    
+  ]
+}
+```
+
+
