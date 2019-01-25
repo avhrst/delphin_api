@@ -2,4 +2,12 @@
 
 
 ## Directions
-/directions   GET
+GET /directions   
+```
+{
+directions: [
+  {id: 1, name: 'ГІМНАЗІЯ', descr: 'описание'},
+  {id: 2, name: '', descr: ''}
+]
+}
+```
